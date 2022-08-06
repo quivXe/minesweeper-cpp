@@ -3,14 +3,14 @@
 #include <ctime> // seed for srand
 #include <string>
 
+#include "tile.h"
+#include "button.h"
 #define BOARD_WIDTH 16
 #define BOARD_HEIGHT 16
 #define TILE_WIDTH 30
 #define TILE_HEIGHT 30
 #define NUMBER_OF_MINES 40
 
-#include "tile.h"
-#include "button.h"
 #include "gameBoard.h"
 
 std::string TEXTURES_PATH = "./resources/images/textures.png";
