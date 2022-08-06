@@ -1,4 +1,3 @@
-const int BOARD_WIDTH = 16, BOARD_HEIGHT = 16, TILE_WIDTH = 30, TILE_HEIGHT = 30;
 extern sf::RenderWindow* pWINDOW;
 extern float getRandNum(), getRandNum(int, int);
 extern Button minesFlaggedButton;

@@ -2,13 +2,16 @@
 #include <cstdlib> // rand
 #include <ctime> // seed for srand
 #include <string>
+
+#define BOARD_WIDTH 16
+#define BOARD_HEIGHT 16
+#define TILE_WIDTH 30
+#define TILE_HEIGHT 30
+#define NUMBER_OF_MINES 40
+
 #include "tile.h"
 #include "button.h"
 #include "gameBoard.h"
-
-#define NUMBER_OF_MINES 40
-
-extern const int BOARD_WIDTH, BOARD_HEIGHT, TILE_WIDTH, TILE_HEIGHT;
 
 std::string TEXTURES_PATH = "./resources/images/textures.png";
 std::string FONT_PATH = "./resources/fonts/ComicSansMS.ttf";
